@@ -1,0 +1,18 @@
+.coming-soon-view {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  .msg {
+    padding-block: 1.5rem;
+    text-align: center;
+    p {
+      color: var(--primary);
+      font-family: "Playfair Display", serif;
+      font-size: 2rem;
+    }
+  }
+  .van-img {
+    max-width: 60%;
+  }
+}
