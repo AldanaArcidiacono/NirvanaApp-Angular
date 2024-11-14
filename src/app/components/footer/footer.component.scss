@@ -1,0 +1,33 @@
+footer {
+  .footer-container {
+    align-items: center;
+    background-color: var(--primary);
+    color: var(--white);
+    display: flex;
+    justify-content: space-between;
+    padding: 0.3rem 0.5rem;
+    .author {
+      align-items: center;
+      display: flex;
+      .author-name {
+        font-size: 0.9rem;
+        font-style: normal;
+        font-weight: 200;
+      }
+      .links {
+        a {
+          color: var(--white);
+          margin-inline: 0.2rem;
+        }
+      }
+    }
+    .logo {
+      max-width: 25px;
+    }
+    .copyright {
+      font-size: 0.9rem;
+      font-style: normal;
+      font-weight: 200;
+    }
+  }
+}
