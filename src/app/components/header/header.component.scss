@@ -1,0 +1,17 @@
+header {
+  .logo-container {
+    align-items: center;
+    background-color: var(--primary);
+    display: flex;
+    padding: 0.5rem;
+    .logo {
+      margin-inline-end: 0.5rem;
+      max-width: 30px;
+    }
+    .title {
+      color: var(--white);
+      font-family: "Playfair Display", serif;
+      font-size: 2rem;
+    }
+  }
+}
