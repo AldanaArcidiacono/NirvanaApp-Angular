@@ -9,4 +9,10 @@ import { Component } from '@angular/core';
 })
 export class LandingComponent {
   cities: string[] = ['Athens', 'Rome', 'Buenos Aires', 'Madrid', 'New York'];
+
+  deletedCity: string | undefined;
+
+  deleteLastCity() {
+    this.deletedCity = this.cities.pop();
+  }
 }

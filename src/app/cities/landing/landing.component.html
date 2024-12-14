@@ -1,9 +1,20 @@
-<div class="landing">
-  <ul class="cities">
+<div class="landing container mt-3">
+  <p class="mb-1">You haven't deleted any cities yet</p>
+  <div class="city-deleted d-flex">
+    <p class="mb-1">Last deleted city:</p>
+    <p class="text-danger ms-1">{{ deletedCity }}</p>
+  </div>
+
+  <ul class="cities list-group list-group-flush my-2">
     @for (city of cities; track city){
-    <li class="city">
+    <li class="city list-group-item">
       <p>{{ city }}</p>
     </li>
     }
   </ul>
+
+  @if (cities.length > 0){
+  <button (click)="deleteLastCity()" class="btn btn-danger">
+    Delete a city</button
+  >}
 </div>
