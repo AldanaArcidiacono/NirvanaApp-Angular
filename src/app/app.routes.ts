@@ -1,6 +1,6 @@
 import { Routes } from '@angular/router';
 import { ComingSoonComponent } from './views/coming-soon/coming-soon.component';
-import { LandingComponent } from './locations/landing/landing.component';
+import { LandingComponent } from './cities/landing/landing.component';
 
 export const routes: Routes = [
   { path: '', pathMatch: 'full', redirectTo: 'coming-soon' },

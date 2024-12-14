@@ -8,11 +8,5 @@ import { Component } from '@angular/core';
   styleUrl: './landing.component.scss',
 })
 export class LandingComponent {
-  locations: string[] = [
-    'Athens',
-    'Rome',
-    'Buenos Aires',
-    'Madrid',
-    'New York',
-  ];
+  cities: string[] = ['Athens', 'Rome', 'Buenos Aires', 'Madrid', 'New York'];
 }
